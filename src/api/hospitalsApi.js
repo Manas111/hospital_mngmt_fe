@@ -1,5 +1,5 @@
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://hospital-mngmt-be.onrender.com/api';
 export const getHospitals = async () => {
   try {
     const response = await fetch(`${API_URL}/hospitals`);
