@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import HospitalForm from './Components/HospitalForm.jsx';
-import HospitalsList from './components/HospitalsList';
-import HospitalDetails from './components/HospitalDetails';
+import HospitalsList from './Components/HospitalsList';
+import HospitalDetails from './Components/HospitalDetails';
 import EditHospital from './Components/EditHospital.jsx'
 import './App.css';
 
